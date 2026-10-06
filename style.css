@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+        font-family: "League Spartan";
 }
 
 body{
@@ -10,11 +11,10 @@ body{
     align-items: center;
     height: 100vh;
     color: hsl(0, 100%, 100%);
-    font-family: "League Spartan";
 }
 
 .main-body{
-    width: 37.85%;
+    width: 35%;
 }
 
 .space-btw{
@@ -26,7 +26,6 @@ body{
     font-weight: 700;
     font-size: 20px;
 }
-
 
 .output{
     background-color: hsl(224, 36%, 15%);
@@ -41,16 +40,52 @@ body{
     background-color: hsl(223, 31%, 20%);
     border-radius: 10px;
     padding: 2.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.numbers{
+    display: grid;
+    gap: 4vh;
+    grid-template-columns: 20% 20% 20% 60%;
+    justify-content: space-between;
 }
 
 .numbers button{
-    color: hsl(224, 28%, 35%);
-    background-color: hsl(0, 0%, 90%);
-    width: 100px;
-    height: 60px;
+    width: 80px;
+    height: 8.5vh;
     font-size: 32px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.reset{
+    display: flex;
+    justify-content: space-between;
 }
 .reset button{
-    height: 60px;
+    height: 8vh;
+    width: 14.5vw;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
+.backgroundcolor1{
+    color: hsl(224, 28%, 35%);
+    background-color: hsl(0, 0%, 90%);
+}
+.backgroundcolor2{
+    color: hsl(0, 100%, 100%);
+    background-color: hsl(225, 21%, 49%);
+}
+.backgroundcolor2 button{
+        font-size: 10px;
+        font-weight: 600;
+}
+.backgroundcolor3{
+    color: hsl(0, 100%, 100%);
+    background-color: hsl(6, 63%, 50%);
+}
